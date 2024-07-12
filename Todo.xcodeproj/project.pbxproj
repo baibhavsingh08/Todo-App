@@ -14,6 +14,8 @@
 		B9AC06F62C40F6D200CBB945 /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9AC06F42C40F6D200CBB945 /* Todo.xcdatamodeld */; };
 		B9AC06F82C40F6D400CBB945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AC06F72C40F6D400CBB945 /* Assets.xcassets */; };
 		B9AC06FB2C40F6D400CBB945 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B9AC06FA2C40F6D400CBB945 /* Base */; };
+		B9AC07042C40FEDB00CBB945 /* TodoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC07022C40FEDB00CBB945 /* TodoListItem+CoreDataClass.swift */; };
+		B9AC07052C40FEDB00CBB945 /* TodoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC07032C40FEDB00CBB945 /* TodoListItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B9AC06F72C40F6D400CBB945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9AC06FA2C40F6D400CBB945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9AC06FC2C40F6D400CBB945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AC07022C40FEDB00CBB945 /* TodoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B9AC07032C40FEDB00CBB945 /* TodoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				B9AC06EB2C40F6D200CBB945 /* AppDelegate.swift */,
+				B9AC07032C40FEDB00CBB945 /* TodoListItem+CoreDataProperties.swift */,
+				B9AC07022C40FEDB00CBB945 /* TodoListItem+CoreDataClass.swift */,
 				B9AC06ED2C40F6D200CBB945 /* SceneDelegate.swift */,
 				B9AC06EF2C40F6D200CBB945 /* ViewController.swift */,
 				B9AC06F12C40F6D200CBB945 /* Main.storyboard */,
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9AC06F02C40F6D200CBB945 /* ViewController.swift in Sources */,
+				B9AC07042C40FEDB00CBB945 /* TodoListItem+CoreDataClass.swift in Sources */,
+				B9AC07052C40FEDB00CBB945 /* TodoListItem+CoreDataProperties.swift in Sources */,
 				B9AC06EC2C40F6D200CBB945 /* AppDelegate.swift in Sources */,
 				B9AC06EE2C40F6D200CBB945 /* SceneDelegate.swift in Sources */,
 				B9AC06F62C40F6D200CBB945 /* Todo.xcdatamodeld in Sources */,
